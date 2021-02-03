@@ -7,6 +7,6 @@ APP=main
 APP2=createProcess
 
 all:
-	g++ -std=c++11 -o $(APP) $(APP).cpp $(APP2).cpp $(LIB_DIR) $(INC_DIR) $(LIB)
+	g++ -std=c++14 -o $(APP) $(APP).cpp $(APP2).cpp $(LIB_DIR) $(INC_DIR) $(LIB)
 clean:
 	rm -rf $(APP)
