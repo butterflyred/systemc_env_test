@@ -5,7 +5,7 @@
 
 SC_MODULE(hello){
         SC_CTOR(hello){
-                cout<<"Hello,SystemC!"<<endl;
+                cout<<"CTOR, hello!"<<endl;
         }
 };
 #endif
